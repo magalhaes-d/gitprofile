@@ -57,9 +57,9 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'magalhaesd',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,18 +69,18 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'magalhaes-d',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://www.datascienceportfol.io/magalhaesd',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'danielmagalhaes38@hotmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/16rzvMeRy6Dtn6SyZtnz9XMLJ6paruPoX/edit?usp=sharing&ouid=110053162646258905566&rtpof=true&sd=true', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
