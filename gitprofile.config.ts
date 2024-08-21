@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -33,20 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '🎓 Web SecExec - UFS',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'O Web SecExec – UFS é uma ferramenta que coleta e compila dados relacionados ao curso de Secretariado Executivo da Universidade Federal de Sergipe, com enfoque em informações sobre graduação, pós-graduação, atividades de extensão e projetos de pesquisa. A aplicação é atualizada quinzenalmente, utilizando dados provenientes do repositório universitário.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/fotos-gratis/relatorio-de-negocios-graficos-e-graficos-relatorios-de-negocios-e-pilha-de-documentos-conceito-de-negocios_1150-2254.jpg',
+          link: 'https://web-sec-ufs.streamlit.app/',
         },
       ],
     },
@@ -54,7 +46,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Daniel Magalhães',
     description: '',
-    imageURL: '',
+    imageURL: 'https://cdn-icons-png.freepik.com/512/12238/12238069.png?ga=GA1.1.165158096.1724279202',
   },
   social: {
     linkedin: 'magalhaesd',
@@ -123,10 +115,46 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Análise de dados como suporte à tomada de decisão',
+      body: 'Escola Nacional de Administração Pública - Enap',
+      year: 'Mai 2024',
+      link: 'https://www.enap.gov.br/pt/',
+    },
+    {
+      name: 'Fundamentos de Linguagem Python para Análise de Dados e Data Science - Nível Intermediário',
+      body: 'Data Science Academy',
+      year: 'Jan 2024',
+      link: 'https://www.datascienceacademy.com.br/',
+    },
+    {
+      name: 'Scientific Computing with Python',
+      body: 'freeCodeCamp',
+      year: 'Dez 2023',
+      link: 'https://www.datascienceacademy.com.br/',
+    },
+    {
+      name: 'Data Analyst with Python',
+      body: 'DataCamp',
+      year: 'Set 2023',
+      link: 'https://www.datacamp.com/',
+    },
+    {
+      name: 'Excel para Análise de Dados',
+      body: 'Preditiva Analytics',
+      year: 'Nov 2022',
+      link: 'https://www.preditiva.ai/',
+    },
+    {
+      name: 'Introdução à Ciência de Dados 3.0',
+      body: 'Data Science Academy',
+      year: 'Set 2022',
+      link: 'https://www.datascienceacademy.com.br/',
+    },
+    {
+      name: 'Pacote Office - Microsoft Office Essencial',
+      body: 'Udemy',
+      year: 'Abr 2022',
+      link: 'https://www.udemy.com/pt/',
     },
   ],
   educations: [
@@ -159,9 +187,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'magalhaes-d', // to hide blog section, keep it empty
+    limit: 4, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
